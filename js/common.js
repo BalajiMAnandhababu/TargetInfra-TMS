@@ -183,6 +183,11 @@ function load_user_sidenavbar(active_nav) {
             <i class="fa fa-exclamation-triangle fa-lg"></i> Last 3 Months\
           </a>\
         </li>\
+		<li id="nav-add-machine-entry">\
+          <a href="./add-machine-entry.html">\
+            <i class="fa fa-plus fa-lg"></i> Machine Transactions\
+          </a>\
+        </li>\
 		<li id="nav-update-sales">\
           <a href="./update-sales.html">\
             <i class="fa fa-gavel fa-lg"></i> Update Selling Percent\
