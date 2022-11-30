@@ -73,14 +73,14 @@ function appendBackToLogin() {
 function load_admin_sidenavbar(active_nav) {
   $('.nav-side-menu').html(' \
     <div class="brand py-3">\
-      <h5 class="mb-0">KNOWLEDGE BASE</h5>\
+      <h5 class="mb-0">TARGET INFRA BIZ</h5>\
     </div>\
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>\
     <div class="menu-list">\
       <ul id="menu-content" class="menu-content collapse out">\
         <li class="py-2 mt-3 title">\
           <span>\
-            <h5 class="pl-1 mb-0">Articles</h5>\
+            <h5 class="pl-1 mb-0">My Transactions</h5>\
           </span>\
         </li>\
         <li id="nav-dashboard">\
@@ -88,45 +88,75 @@ function load_admin_sidenavbar(active_nav) {
             <i class="fa fa-tachometer-alt fa-lg"></i> Dashboard\
           </a>\
         </li>\
-        <li id="nav-pending-review">\
-          <a href="./pending-review.html">\
-            <i class="fa fa-gavel fa-lg"></i> Pending Review\
+        <li id="nav-daily-transactions">\
+          <a href="./daily-transactions.html">\
+            <i class="fa fa-search fa-lg"></i> Daily\
           </a>\
         </li>\
-        <li id="nav-search-articles">\
-          <a href="./search-articles.html">\
-            <i class="fa fa-search fa-lg"></i> Search Articles\
+		<li id="nav-monthly-transactions">\
+          <a href="./monthly-transactions.html">\
+            <i class="fa fa-search fa-lg"></i> Monthly\
           </a>\
         </li>\
-        <li id="nav-my-articles" class="py-2 mt-3 title">\
+		<li id="nav-last3months-transactions">\
+          <a href="./last-3-months-transactions.html">\
+            <i class="fa fa-exclamation-triangle fa-lg"></i> Last 3 Months\
+          </a>\
+        </li>\
+		<li id="nav-add-machine-entry">\
+          <a href="./add-machine-entry.html">\
+            <i class="fa fa-plus fa-lg"></i> Machine Transactions\
+          </a>\
+        </li>\
+		<li id="nav-update-sales">\
+          <a href="./update-sales.html">\
+            <i class="fa fa-gavel fa-lg"></i> Update Selling Percent\
+          </a>\
+        </li>\
+        <li id="nav-my-expense" class="py-2 mt-3 title">\
           <span>\
-            <h5 class="pl-1 mb-0">My Articles</h5>\
+            <h5 class="pl-1 mb-0">My Expenses</h5>\
           </span>\
         </li>\
-        <li id="nav-add-new-article">\
-          <a href="./add-new-article.html">\
+        <li id="nav-add-new">\
+          <a href="./add-new.html">\
             <i class="fa fa-plus fa-lg"></i> Add New\
           </a>\
         </li>\
-        <li id="nav-manage-articles">\
-          <a href="./manage-articles.html">\
-            <i class="fa fa-search fa-lg"></i> Manage Articles\
+        <li id="nav-manage-expense">\
+          <a href="./manage-expense.html">\
+            <i class="fa fa-gavel fa-lg"></i> Manage Expense\
+          </a>\
+        </li>\
+		<li class="py-2 mt-3 title">\
+          <span>\
+            <h5 class="pl-1 mb-0">My Business Report</h5>\
+          </span>\
+        </li>\
+        <li id="nav-accupay-charges">\
+          <a href="./accupay-charges.html">\
+            <i class="fa fa-search fa-lg"></i> Accupay Charges\
+          </a>\
+        </li>\
+        <li id="nav-epay-charges">\
+          <a href="./epay-charges.html">\
+            <i class="fa fa-search fa-lg"></i> E-Pay Charges\
+          </a>\
+        </li>\
+		<li id="nav-epay-cashback">\
+          <a href="./epay-cashback.html">\
+            <i class="fa fa-search fa-lg"></i> E-Pay Cashback\
+          </a>\
+        </li>\
+		<li id="nav-business-summary">\
+          <a href="./business-summary.html">\
+            <i class="fa fa-tachometer-alt fa-lg"></i> Profit Share\
           </a>\
         </li>\
         <li id="nav-settings" class="py-2 mt-3 title">\
           <span>\
             <h5 class="pl-1 mb-0">Settings</h5>\
           </span>\
-        </li>\
-        <li id="nav-add-user">\
-          <a href="./add-user.html">\
-            <i class="fas fa-user-plus fa-lg"></i>  Add User\
-          </a>\
-        </li>\
-        <li id="nav-manage-users">\
-          <a href="./manage-users.html">\
-            <i class="fa fa-users fa-lg"></i> Manage Users\
-          </a>\
         </li>\
         <li id="nav-profile">\
           <a href="./profile.html">\
@@ -139,7 +169,7 @@ function load_admin_sidenavbar(active_nav) {
           </a>\
         </li>\
         <li id="nav-logout">\
-          <a href="https://c1hci507.caspio.com/folderlogout" referrerpolicy="no-referrer-when-downgrade">\
+          <a href="https://c2dcy386.caspio.com/folderlogout" referrerpolicy="no-referrer-when-downgrade">\
             <i class="fa fa-power-off fa-lg"></i> Logout\
           </a>\
         </li>\
