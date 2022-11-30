@@ -244,7 +244,7 @@ function load_user_sidenavbar(active_nav) {
           </a>\
         </li>\
         <li id="nav-logout">\
-          <a href="https://c1hci507.caspio.com/folderlogout" referrerpolicy="no-referrer-when-downgrade">\
+          <a href="https://c2dcy386.caspio.com/folderlogout" referrerpolicy="no-referrer-when-downgrade">\
             <i class="fa fa-power-off fa-lg"></i> Logout\
           </a>\
         </li>\
