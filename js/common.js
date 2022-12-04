@@ -80,7 +80,7 @@ function load_admin_sidenavbar(active_nav) {
       <ul id="menu-content" class="menu-content collapse out">\
         <li class="py-2 mt-3 title">\
           <span>\
-            <h5 class="pl-1 mb-0">My Transactions</h5>\
+            <h5 class="pl-1 mb-0">Partner Transactions</h5>\
           </span>\
         </li>\
         <li id="nav-dashboard">\
@@ -115,7 +115,7 @@ function load_admin_sidenavbar(active_nav) {
         </li>\
         <li id="nav-my-expense" class="py-2 mt-3 title">\
           <span>\
-            <h5 class="pl-1 mb-0">My Expenses</h5>\
+            <h5 class="pl-1 mb-0">Partner Expenses</h5>\
           </span>\
         </li>\
         <li id="nav-add-new">\
@@ -145,7 +145,7 @@ function load_admin_sidenavbar(active_nav) {
         </li>\
 		<li class="py-2 mt-3 title">\
           <span>\
-            <h5 class="pl-1 mb-0">My Business Report</h5>\
+            <h5 class="pl-1 mb-0">Business Report</h5>\
           </span>\
         </li>\
         <li id="nav-accupay-charges">\
