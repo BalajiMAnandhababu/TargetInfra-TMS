@@ -134,12 +134,12 @@ function load_admin_sidenavbar(active_nav) {
           </span>\
         </li>\
         <li id="nav-machine-trans">\
-          <a href="./add-new.html">\
+          <a href="./verify-machine-transactions.html">\
             <i class="fa fa-plus fa-lg"></i> Machine Transactions\
           </a>\
         </li>\
         <li id="nav-selling-rate">\
-          <a href="./manage-expense.html">\
+          <a href="./verify-selling-percent.html">\
             <i class="fa fa-gavel fa-lg"></i> Selling Rate\
           </a>\
         </li>\
