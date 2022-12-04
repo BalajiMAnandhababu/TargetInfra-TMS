@@ -128,6 +128,21 @@ function load_admin_sidenavbar(active_nav) {
             <i class="fa fa-gavel fa-lg"></i> Manage Expense\
           </a>\
         </li>\
+		<li id="nav-verification" class="py-2 mt-3 title">\
+          <span>\
+            <h5 class="pl-1 mb-0">Verification</h5>\
+          </span>\
+        </li>\
+        <li id="nav-machine-trans">\
+          <a href="./add-new.html">\
+            <i class="fa fa-plus fa-lg"></i> Machine Transactions\
+          </a>\
+        </li>\
+        <li id="nav-selling-rate">\
+          <a href="./manage-expense.html">\
+            <i class="fa fa-gavel fa-lg"></i> Selling Rate\
+          </a>\
+        </li>\
 		<li class="py-2 mt-3 title">\
           <span>\
             <h5 class="pl-1 mb-0">My Business Report</h5>\
@@ -146,6 +161,11 @@ function load_admin_sidenavbar(active_nav) {
 		<li id="nav-epay-cashback">\
           <a href="./epay-cashback.html">\
             <i class="fa fa-search fa-lg"></i> E-Pay Cashback\
+          </a>\
+        </li>\
+		<li id="nav-epay-link-cashback">\
+          <a href="./epay-link-cashback.html">\
+            <i class="fa fa-search fa-lg"></i> E-Pay Link Cashback\
           </a>\
         </li>\
 		<li id="nav-business-summary">\
