@@ -173,6 +173,21 @@ function load_admin_sidenavbar(active_nav) {
             <i class="fa fa-tachometer-alt fa-lg"></i> Profit Share\
           </a>\
         </li>\
+		<li class="py-2 mt-3 title">\
+          <span>\
+            <h5 class="pl-1 mb-0">Setup</h5>\
+          </span>\
+        </li>\
+        <li id="nav-meta-data">\
+          <a href="./meta-data.html">\
+            <i class="fa fa-search fa-lg"></i> Meta Data\
+          </a>\
+        </li>\
+        <li id="nav-merchant-details">\
+          <a href="./merchant-details.html">\
+            <i class="fa fa-search fa-lg"></i> Merchant Details\
+          </a>\
+        </li>\
         <li id="nav-settings" class="py-2 mt-3 title">\
           <span>\
             <h5 class="pl-1 mb-0">Settings</h5>\
@@ -276,6 +291,11 @@ function load_user_sidenavbar(active_nav) {
 		<li id="nav-epay-cashback">\
           <a href="./epay-cashback.html">\
             <i class="fa fa-search fa-lg"></i> E-Pay Cashback\
+          </a>\
+        </li>\
+		<li id="nav-epay-link-cashback">\
+          <a href="./epay-link-cashback.html">\
+            <i class="fa fa-search fa-lg"></i> E-Pay Link Cashback\
           </a>\
         </li>\
 		<li id="nav-business-summary">\
