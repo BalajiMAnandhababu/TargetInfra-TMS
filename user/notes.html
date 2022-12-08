@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="shortcut icon" type="image/x-icon" href="../img/index.ico" />
+    <!-- Assets -->
+    <!-- CDN Core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/fa.all.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="../css/common.css" media="screen" title="no title" charset="utf-8" />
+    <link rel="stylesheet" href="../css/jquery.datetimepicker.min.css" media="screen" title="no title"
+        charset="utf-8" />
+    <!-- CDN Core JS -->
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- CDN Extended JS -->
+    <script src="../js/moment.min.js"></script>
+    <script src="../js/moment-timezone-with-data.min.js"></script>
+    <script src="../js/jquery.maskedinput.min.js"></script>
+    <!-- Local JS -->
+    <script src="../js/common.js" type="text/javascript"></script>
+    <script src="../js/jquery.datetimepicker.full.min.js" type="text/javascript"></script>
+    <!-- ./Assets -->
+    <title>Employee: Contact Details</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="site-navbar">
+        <script type="text/javascript">loadEmployeeNavigation()</script>
+    </nav>
+    <script>
+        $("#nav-manage-contacts").addClass("active");
+    </script>
+
+    <main role="main" class="container-fluid cb-container-lg mb-5">
+        <h3 class="mt-3">Manage Contacts</h3>
+
+        <nav class="mt-3" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="./manage-contacts.html"><i class="fas fa-address-card"></i> Manage
+                        Contacts</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    <i class="fas fa-book"></i> Notes
+                </li>
+            </ol>
+        </nav>
+
+        <!-- tab -->
+        <div class="cb-custom-card">
+            <div class="row manage-contacts">
+                <div class="col-8">
+                    <script type="text/javascript"
+                        src="https://c2dcy386.caspio.com/dp/ba4fb00062ffcb68932d43cfa6c6/emb"></script>
+                </div>
+                <div class="col-4">
+                    <a id="edit-btn" title="Edit" class="btn btn-sm btn-primary float-right mt-2 text-white">
+                        <i class="fa fa-edit" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="cb-custom-card mt-4">
+            <ul class="mt-3 nav nav-tabs">
+                <li class="nav-item">
+                    <a id="tab-notes" class="nav-link" href="">
+                        <i class="fas fa-book"></i> Notes</a>
+                </li>
+                <li class="nav-item">
+                    <a id="tab-phone-log" class="nav-link" href="">
+                        <i class="fas fa-phone"></i> Call Logs</a>
+                </li>
+                <li class="nav-item">
+                    <a id="tab-email-log" class="nav-link" href="">
+                        <i class="fas fa-envelope"></i> Email Logs</a>
+                </li>
+                <li class="nav-item">
+                    <a id="tab-sales-log" class="nav-link" href="">
+                        <i class="fas fa-coins"></i> Deal Logs</a>
+                </li>
+            </ul>
+            <!-- ./tab -->
+            <script>
+                $("#tab-notes").addClass("active");
+            </script>
+
+            <div class="row">
+                <div class="col col-sm-8"></div>
+                <div class="col col-sm-4">
+                    <button type="button" class="mt-2 mb-2 btn btn-sm btn-primary float-right mt-2" onclick=""
+                        id="add-btn">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="row manage-logs">
+                <div class="col">
+                    <script type="text/javascript"
+                        src="https://c2dcy386.caspio.com/dp/ba4fb00073591bd902094646850d/emb"></script>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        let cid = getUrlParameter("cid");
+        let pathname = window.location.pathname;
+        let employee = false;
+        let manager = false;
+
+        if (pathname.includes("employee") != false) {
+            employee = true;
+        } else {
+            employee = false;
+        }
+
+        if (pathname.includes("manager") != false) {
+            manager = true;
+        } else {
+            manager = false;
+        }
+
+        $("#edit-btn").attr("href", "./edit-contact-details.html?cid=" + cid);
+
+        $("#add-btn").attr(
+            "onclick",
+            "openModal( 'Add Note', '../shared/add-note.html?cid=" +
+            cid +
+            "&date=" +
+            formatDate(new Date()) +
+            "');"
+        );
+
+        $("#tab-notes").attr("href", "./notes.html?cid=" + cid);
+        $("#tab-phone-log").attr("href", "./phone-logs.html?cid=" + cid);
+        $("#tab-email-log").attr("href", "./email-logs.html?cid=" + cid);
+        $("#tab-sales-log").attr("href", "./sales-logs.html?cid=" + cid);
+        // Delete user onclick of delete icon
+        function deleteUser(id) {
+            $("#marker-" + id)
+                .closest("tr")
+                .find('a[data-cb-name="InlineDelete"]')[1]
+                .click();
+        }
+        document.addEventListener("DataPageReady", function () {
+            if ($("#xip_Email").length)
+                window.location = "../employee-login.html";
+        });
+    </script>
+
+    <div id="cb-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cb-modal-title">
+                        Modal title
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="cb-modal-body"></div>
+                    <div id="cb-modal-error" class="d-none alert alert-danger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
