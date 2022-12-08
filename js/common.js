@@ -133,12 +133,16 @@ function load_admin_sidenavbar(active_nav) {
             <h5 class="pl-1 mb-0">Verification</h5>\
           </span>\
         </li>\
+		<li id="nav-pending-sales-report">\
+          <a href="./pending-sales-report.html">\
+            <i class="fa fa-plus fa-lg"></i> Report\
+          </a>\
         <li id="nav-machine-trans">\
           <a href="./verify-machine-transactions.html">\
             <i class="fa fa-plus fa-lg"></i> Machine Transactions\
           </a>\
         </li>\
-        <li id="nav-selling-rate">\
+        <li id="nav-verify-selling-percent">\
           <a href="./verify-selling-percent.html">\
             <i class="fa fa-gavel fa-lg"></i> Selling Rate\
           </a>\
@@ -186,6 +190,11 @@ function load_admin_sidenavbar(active_nav) {
         <li id="nav-merchant-details">\
           <a href="./merchant-details.html">\
             <i class="fa fa-search fa-lg"></i> Merchant Details\
+          </a>\
+        </li>\
+		 <li id="nav-employee-details">\
+          <a href="./employee-details.html">\
+            <i class="fa fa-search fa-lg"></i> Employee Details\
           </a>\
         </li>\
         <li id="nav-settings" class="py-2 mt-3 title">\
