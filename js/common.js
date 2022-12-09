@@ -264,7 +264,12 @@ function load_user_sidenavbar(active_nav) {
         </li>\
 		<li id="nav-update-sales">\
           <a href="./update-sales.html">\
-            <i class="fa fa-gavel fa-lg"></i> Update Selling Percent\
+            <i class="fa fa-gavel fa-lg"></i> Update Sales Report\
+          </a>\
+        </li>\
+		<li id="nav-business-report">\
+          <a href="./business-report.html">\
+            <i class="fa fa-search fa-lg"></i> Business Report\
           </a>\
         </li>\
         <li id="nav-my-expense" class="py-2 mt-3 title">\
@@ -286,6 +291,11 @@ function load_user_sidenavbar(active_nav) {
           <span>\
             <h5 class="pl-1 mb-0">My Business Report</h5>\
           </span>\
+        </li>\
+		<li id="nav-gross-profit">\
+          <a href="./gross-profit.html">\
+            <i class="fa fa-search fa-lg"></i> Gross Profit\
+          </a>\
         </li>\
         <li id="nav-accupay-charges">\
           <a href="./accupay-charges.html">\
