@@ -120,12 +120,12 @@ function load_admin_sidenavbar(active_nav) {
         </li>\
         <li id="nav-add-new">\
           <a href="./add-new.html">\
-            <i class="fa fa-plus fa-lg"></i> Add New\
+            <i class="fa fa-plus fa-lg"></i> Add & Manage Expense\
           </a>\
         </li>\
         <li id="nav-manage-expense">\
           <a href="./manage-expense.html">\
-            <i class="fa fa-gavel fa-lg"></i> Manage Expense\
+            <i class="fa fa-gavel fa-lg"></i> View Expense\
           </a>\
         </li>\
 		<li id="nav-verification" class="py-2 mt-3 title">\
@@ -157,14 +157,9 @@ function load_admin_sidenavbar(active_nav) {
             <i class="fa fa-search fa-lg"></i> Accupay Charges\
           </a>\
         </li>\
-        <li id="nav-epay-charges">\
-          <a href="./epay-charges.html">\
-            <i class="fa fa-search fa-lg"></i> E-Pay Charges\
-          </a>\
-        </li>\
 		<li id="nav-epay-cashback">\
           <a href="./epay-cashback.html">\
-            <i class="fa fa-search fa-lg"></i> E-Pay Cashback\
+            <i class="fa fa-search fa-lg"></i> E-Pay Cashback & Charges\
           </a>\
         </li>\
 		<li id="nav-epay-link-cashback">\
@@ -247,14 +242,9 @@ function load_user_sidenavbar(active_nav) {
             <i class="fa fa-search fa-lg"></i> Daily\
           </a>\
         </li>\
-		<li id="nav-monthly-transactions">\
-          <a href="./monthly-transactions.html">\
-            <i class="fa fa-search fa-lg"></i> Monthly\
-          </a>\
-        </li>\
 		<li id="nav-last3months-transactions">\
           <a href="./last-3-months-transactions.html">\
-            <i class="fa fa-exclamation-triangle fa-lg"></i> Last 3 Months\
+            <i class="fa fa-exclamation-triangle fa-lg"></i> Compare\
           </a>\
         </li>\
 		<li id="nav-add-machine-entry">\
@@ -279,12 +269,12 @@ function load_user_sidenavbar(active_nav) {
         </li>\
         <li id="nav-add-new">\
           <a href="./add-new.html">\
-            <i class="fa fa-plus fa-lg"></i> Add New\
+            <i class="fa fa-plus fa-lg"></i> Add & Manage Expense\
           </a>\
         </li>\
         <li id="nav-manage-expense">\
           <a href="./manage-expense.html">\
-            <i class="fa fa-gavel fa-lg"></i> Manage Expense\
+            <i class="fa fa-gavel fa-lg"></i> View Expense\
           </a>\
         </li>\
 		<li class="py-2 mt-3 title">\
@@ -302,14 +292,9 @@ function load_user_sidenavbar(active_nav) {
             <i class="fa fa-search fa-lg"></i> Accupay Charges\
           </a>\
         </li>\
-        <li id="nav-epay-charges">\
-          <a href="./epay-charges.html">\
-            <i class="fa fa-search fa-lg"></i> E-Pay Charges\
-          </a>\
-        </li>\
 		<li id="nav-epay-cashback">\
           <a href="./epay-cashback.html">\
-            <i class="fa fa-search fa-lg"></i> E-Pay Cashback\
+            <i class="fa fa-search fa-lg"></i> E-Pay Cashback & Charges\
           </a>\
         </li>\
 		<li id="nav-epay-link-cashback">\
