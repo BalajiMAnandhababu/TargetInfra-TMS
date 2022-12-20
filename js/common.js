@@ -93,14 +93,9 @@ function load_admin_sidenavbar(active_nav) {
             <i class="fa fa-search fa-lg"></i> Daily\
           </a>\
         </li>\
-		<li id="nav-monthly-transactions">\
-          <a href="./monthly-transactions.html">\
-            <i class="fa fa-search fa-lg"></i> Monthly\
-          </a>\
-        </li>\
 		<li id="nav-last3months-transactions">\
           <a href="./last-3-months-transactions.html">\
-            <i class="fa fa-exclamation-triangle fa-lg"></i> Last 3 Months\
+            <i class="fa fa-exclamation-triangle fa-lg"></i> Compare\
           </a>\
         </li>\
 		<li id="nav-add-machine-entry">\
@@ -115,17 +110,17 @@ function load_admin_sidenavbar(active_nav) {
         </li>\
         <li id="nav-my-expense" class="py-2 mt-3 title">\
           <span>\
-            <h5 class="pl-1 mb-0">Partner Expenses</h5>\
+            <h5 class="pl-1 mb-0">Expenses & Requests</h5>\
           </span>\
-        </li>\
-        <li id="nav-add-new">\
-          <a href="./add-new.html">\
-            <i class="fa fa-plus fa-lg"></i> Add & Manage Expense\
-          </a>\
         </li>\
         <li id="nav-manage-expense">\
           <a href="./manage-expense.html">\
             <i class="fa fa-gavel fa-lg"></i> View Expense\
+          </a>\
+        </li>\
+		<li id="nav-requests">\
+          <a href="./request.html">\
+            <i class="fa fa-plus fa-lg"></i> View Requests\
           </a>\
         </li>\
 		<li id="nav-verification" class="py-2 mt-3 title">\
