@@ -74,6 +74,8 @@ function load_admin_sidenavbar(active_nav) {
   $('.nav-side-menu').html(' \
     <div class="brand py-3">\
       <h5 class="mb-0">TARGET INFRA BIZ</h5>\
+	  <a href="https://c2dcy386.caspio.com/folderlogout" referrerpolicy="no-referrer-when-downgrade">\
+            <i class="fa fa-power-off fa-lg">\
     </div>\
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>\
     <div class="menu-list">\
@@ -115,12 +117,12 @@ function load_admin_sidenavbar(active_nav) {
         </li>\
         <li id="nav-manage-expense">\
           <a href="./manage-expense.html">\
-            <i class="fa fa-gavel fa-lg"></i> View Expense\
+            <i class="fa fa-gavel fa-lg"></i> Expenses\
           </a>\
         </li>\
 		<li id="nav-requests">\
           <a href="./request.html">\
-            <i class="fa fa-plus fa-lg"></i> View Requests\
+            <i class="fa fa-plus fa-lg"></i> Requests\
           </a>\
         </li>\
 		<li id="nav-verification" class="py-2 mt-3 title">\
@@ -132,11 +134,6 @@ function load_admin_sidenavbar(active_nav) {
           <a href="./pending-sales-report.html">\
             <i class="fa fa-plus fa-lg"></i> Report\
           </a>\
-        <li id="nav-machine-trans">\
-          <a href="./verify-machine-transactions.html">\
-            <i class="fa fa-plus fa-lg"></i> Machine Transactions\
-          </a>\
-        </li>\
         <li id="nav-verify-selling-percent">\
           <a href="./verify-selling-percent.html">\
             <i class="fa fa-gavel fa-lg"></i> Selling Rate\
@@ -191,16 +188,6 @@ function load_admin_sidenavbar(active_nav) {
           <span>\
             <h5 class="pl-1 mb-0">Settings</h5>\
           </span>\
-        </li>\
-        <li id="nav-profile">\
-          <a href="./profile.html">\
-            <i class="fa fa-user fa-lg"></i> Profile\
-          </a>\
-        </li>\
-        <li id="nav-change-password">\
-          <a href="./change-password.html">\
-            <i class="fa fa-lock fa-lg"></i> Change Password\
-          </a>\
         </li>\
         <li id="nav-logout">\
           <a href="https://c2dcy386.caspio.com/folderlogout" referrerpolicy="no-referrer-when-downgrade">\
