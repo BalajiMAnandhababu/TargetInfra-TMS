@@ -185,16 +185,6 @@ function load_admin_sidenavbar(active_nav) {
             <i class="fa fa-search fa-lg"></i> Employee Details\
           </a>\
         </li>\
-        <li id="nav-settings" class="py-2 mt-3 title">\
-          <span>\
-            <h5 class="pl-1 mb-0">Settings</h5>\
-          </span>\
-        </li>\
-        <li id="nav-logout">\
-          <a href="https://c2dcy386.caspio.com/folderlogout" referrerpolicy="no-referrer-when-downgrade">\
-            <i class="fa fa-power-off fa-lg"></i> Logout\
-          </a>\
-        </li>\
       </ul>\
     </div>\
   ');
@@ -303,6 +293,11 @@ function load_user_sidenavbar(active_nav) {
         <li id="nav-change-password">\
           <a href="./change-password.html">\
             <i class="fa fa-lock fa-lg"></i> Change Password\
+          </a>\
+        </li>\
+        <li id="nav-logout">\
+          <a href="https://c2dcy386.caspio.com/folderlogout" referrerpolicy="no-referrer-when-downgrade">\
+            <i class="fa fa-power-off fa-lg"></i> Logout\
           </a>\
         </li>\
       </ul>\
