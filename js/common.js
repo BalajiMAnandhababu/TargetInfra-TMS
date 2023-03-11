@@ -73,7 +73,7 @@ function appendBackToLogin() {
 function load_admin_sidenavbar(active_nav) {
   $('.nav-side-menu').html(' \
     <div class="brand py-3">\
-      <h5 class="mb-0">TARGET INFRA BIZ</h5>\
+      <h5 class="mb-0">UNIFIED PAYGATE SERVICES</h5>\
 	  <a href="https://c2dcy386.caspio.com/folderlogout" referrerpolicy="no-referrer-when-downgrade">\
 	  <i class="fa fa-power-off fa-lg"></i>\
 	  </a>\
@@ -195,7 +195,7 @@ function load_admin_sidenavbar(active_nav) {
 function load_user_sidenavbar(active_nav) {
   $('.nav-side-menu').html(' \
     <div class="brand py-3">\
-      <h5 class="mb-0">TARGET INFRA BIZ</h5>\
+      <h5 class="mb-0">UNIFIED PAYGATE SERVICES</h5>\
     </div>\
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>\
     <div class="menu-list">\
