@@ -147,17 +147,17 @@ function load_admin_sidenavbar(active_nav) {
         </li>\
         <li id="nav-accupay-charges">\
           <a href="./accupay-charges.html">\
-            <i class="fa fa-search fa-lg"></i> Accupay Charges\
+            <i class="fa fa-search fa-lg"></i> Payout Charges\
           </a>\
         </li>\
 		<li id="nav-epay-cashback">\
           <a href="./epay-cashback.html">\
-            <i class="fa fa-search fa-lg"></i> E-Pay Cashback & Charges\
+            <i class="fa fa-search fa-lg"></i> Payout Cashback & Charges\
           </a>\
         </li>\
 		<li id="nav-epay-link-cashback">\
           <a href="./epay-link-cashback.html">\
-            <i class="fa fa-search fa-lg"></i> E-Pay Link Cashback\
+            <i class="fa fa-search fa-lg"></i> Payin Cashback\
           </a>\
         </li>\
 		<li id="nav-business-summary">\
@@ -262,17 +262,17 @@ function load_user_sidenavbar(active_nav) {
         </li>\
         <li id="nav-accupay-charges">\
           <a href="./accupay-charges.html">\
-            <i class="fa fa-search fa-lg"></i> Accupay Charges\
+            <i class="fa fa-search fa-lg"></i> Payout Charges\
           </a>\
         </li>\
 		<li id="nav-epay-cashback">\
           <a href="./epay-cashback.html">\
-            <i class="fa fa-search fa-lg"></i> E-Pay Cashback & Charges\
+            <i class="fa fa-search fa-lg"></i> Payout Cashback & Charges\
           </a>\
         </li>\
 		<li id="nav-epay-link-cashback">\
           <a href="./epay-link-cashback.html">\
-            <i class="fa fa-search fa-lg"></i> E-Pay Link Cashback\
+            <i class="fa fa-search fa-lg"></i> Payin Cashback\
           </a>\
         </li>\
 		<li id="nav-business-summary">\
