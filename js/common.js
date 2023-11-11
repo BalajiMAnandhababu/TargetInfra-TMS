@@ -160,11 +160,6 @@ function load_admin_sidenavbar(active_nav) {
             <i class="fa fa-search fa-lg"></i> Payin Cashback\
           </a>\
         </li>\
-		<li id="nav-wallet-balance">\
-          <a href="./wallet-balance.html">\
-            <i class="fa fa-tachometer-alt fa-lg"></i> Wallet Balance\
-          </a>\
-        </li>\
 		<li id="nav-business-summary">\
           <a href="./business-summary.html">\
             <i class="fa fa-tachometer-alt fa-lg"></i> Profit Share\
@@ -278,6 +273,11 @@ function load_user_sidenavbar(active_nav) {
 		<li id="nav-epay-link-cashback">\
           <a href="./epay-link-cashback.html">\
             <i class="fa fa-search fa-lg"></i> Payin Cashback\
+          </a>\
+        </li>\
+		<li id="nav-wallet-balance">\
+          <a href="./wallet-balance.html">\
+            <i class="fa fa-tachometer-alt fa-lg"></i> Wallet Balance\
           </a>\
         </li>\
 		<li id="nav-business-summary">\
