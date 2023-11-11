@@ -160,6 +160,11 @@ function load_admin_sidenavbar(active_nav) {
             <i class="fa fa-search fa-lg"></i> Payin Cashback\
           </a>\
         </li>\
+		<li id="nav-wallet-balance">\
+          <a href="./wallet-balance.html">\
+            <i class="fa fa-tachometer-alt fa-lg"></i> Profit Share\
+          </a>\
+        </li>\
 		<li id="nav-business-summary">\
           <a href="./business-summary.html">\
             <i class="fa fa-tachometer-alt fa-lg"></i> Profit Share\
