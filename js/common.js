@@ -282,7 +282,7 @@ function load_user_sidenavbar(active_nav) {
         </li>\
 		<li id="nav-wallet-balance">\
           <a href="./wallet-balance.html">\
-            <i class="fa fa-tachometer-alt fa-lg"></i> Wallet Balance\
+            <i class="fa fa-tachometer-alt fa-lg"></i> Profit Summary\
           </a>\
         </li>\
 		<li id="nav-business-summary">\
